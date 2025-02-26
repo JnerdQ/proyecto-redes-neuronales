@@ -1,7 +1,12 @@
 # 🍎 AppleNet - Clasificación de Manzanas con CNN  
 
 ## 📋 Descripción  
-Sistema basadoo en Redes Neuronales (RN) que analiza imágenes de manzanas para determinar su estado de madurez o descomposición utilizando **redes neuronales convolucionales (CNNs)**. Asigna valores entre **0 (completamente saludable) y 1 (estado avanzado de descomposición)**.  
+Sistema basado en **redes neuronales (RN)** que analiza imágenes de manzanas para evaluar su estado de madurez o descomposición mediante **redes neuronales convolucionales (CNNs)**. Cada imagen es clasificada en una de dos categorías:  
+
+- **Healthy (Saludable)** 🟢  
+- **Rotten (Podrido)** 🔴  
+
+El modelo asigna un valor entre **0 (totalmente saludable) y 1 (en estado avanzado de descomposición)**, permitiendo una evaluación precisa del estado de la fruta.  
 
 ## 🧠 Modelos Implementados  
 - **GoogLeNet (Inception V1)**:   
